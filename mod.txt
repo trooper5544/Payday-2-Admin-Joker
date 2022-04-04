@@ -1,0 +1,27 @@
+{
+	"name": "Better Converts ",
+	"description": "Allows them to be more intelligent",
+	"author": "Cannibal Duck",
+	"contact": "",
+	"version": "1",
+	"priority": 0,
+	"hooks": [
+		{
+			"hook_id": "lib/tweak_data/charactertweakdata",
+			"script_path": "lua/code.lua"
+		},
+		{
+			"hook_id": "lib/units/enemies/cop/copbrain",
+			"script_path": "lua/code.lua"
+		},
+
+		{
+			"hook_id": "lib/units/enemies/cop/logics/coplogicattack",
+			"script_path": "lua/code.lua"
+		},
+		{
+			"hook_id": "lib/network/matchmaking/networkmatchmakingsteam",
+			"script_path": "lua/network.lua"
+		}		
+	]
+}
